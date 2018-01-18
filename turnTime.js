@@ -32,7 +32,22 @@ function formatDate(now){
     var   date=dd.getDate();     
     var   hour=dd.getHours();     
     var   minute=dd.getMinutes();     
-    var   second=dd.getSeconds();     
+    var   second=dd.getSeconds();
+    if(month<10){
+    	month="0"+month
+    }
+    if(date<10){
+    	date="0"+date
+    }
+    if(hour<10){
+    	hour="0"+hour
+    }
+    if(minute<10){
+    	minute="0"+minute
+    }
+    if(second<10){
+    	second="0"+second
+    }
     return   year+"-"+month+"-"+date     
-}  
+}
 //格式formatDate(1513180800000)
