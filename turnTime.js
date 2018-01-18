@@ -24,7 +24,7 @@ var format_t = function(time, format){
 		}
 	})
 }
-//格式format('Thu Aug 22 2013 15:12:00 GMT+0800', 'yyyy-MM-dd HH:mm:ss')
+//格式format_t('Thu Aug 22 2013 15:12:00 GMT+0800', 'yyyy-MM-dd HH:mm:ss')
 function formatDate(now){
 	var   dd=new Date(now)     
     var   year=dd.getFullYear();     
